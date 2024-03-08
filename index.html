@@ -8,7 +8,37 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
+    <div class="container">
+        <div class="buttons">
+            <div class="new-game">
+                <button class="game-button">🔃 NEW GAME</button>
+            </div>
+            <div class="game-actions">
+                <button class="game-button">🎲 ROLL DICE</button>
+                <button class="game-button">📥 HOLD</button>
+            </div>
+        </div>
 
+        <div class="card selected" id="card-right">
+            <h2>PLAYER 1</h2>
+            <h1>0</h1>
+
+            <div class="card-box">
+                <p>CURRENT</p>
+                <h3>0</h3>
+            </div>
+        </div>
+
+        <div class="card" id="card-left">
+            <h2>PLAYER 2</h2>
+            <h1>0</h1>
+
+            <div class="card-box">
+                <p>CURRENT</p>
+                <h3>0</h3>
+            </div>
+        </div>
+    </div>
     <script src="scripts/script.js"></script>
 </body>
 </html>
